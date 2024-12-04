@@ -8,7 +8,7 @@ const APIKEY = import.meta.env.PUBLIC_WEATHER_API;
 // API endpoint URL
 const queryEndpoint = 'https://api.openweathermap.org/data/2.5/weather';
 // City
-const queryCity = 'Cheney';
+const queryCity = 'Miami';
 // Units for Farenheit
 const queryUnits = 'imperial';
 
@@ -44,10 +44,10 @@ fetch(url)
 <!-- Weather -->
 <section class="weather">
 
-      <h1>Weather</h1>
-      <data class="city">City</data>
-      <data class="temp">Temp</data>
-      <img class="icon" 
+      <h1 class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Weather -</h1>
+      <data class="city" class="text-base/7 text-gray-600">City</data>
+      <data class="temp" class="text-base/7 text-gray-600">Temp</data>
+      <img class="icon" class="justify"
       src="https://via.placeholder.com/150" alt="Placeholder">
       
 </section>

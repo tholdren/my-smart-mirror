@@ -70,13 +70,13 @@ const theClockApp = () => {
   // Re-run `theClockApp` every 1 second (1000 ms)
   setInterval(theClockApp, 1000);
 </script>
-<div class="card glass w-96">
+<div>
 <section class="time">
-    <h1>Time</h1>
+    <h1 class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Time -</h1>
     <time>
-      <data class="hours">HH</data> : <data class="minutes">MM</data> :
-      <data class="seconds">SS</data>
-      <data class="amOrPM">AM/PM</data>
+      <data class="hours" class="text-base/7 text-gray-600">HH</data> : <data class="minutes" class="text-base/7 text-gray-600">MM</data> :
+      <data class="seconds" class="text-base/7 text-gray-600">SS</data>
+      <data class="amOrPM" class="text-base/7 text-gray-600">AM/PM</data>
     </time>
 <section>
 </div>
